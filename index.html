@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Country Search</title>
+    <script src="./script.js"></script>
+    <style>
+        .result-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .result-table th,
+        .result-table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Country Search</h1>
+    <input type="text" id="countryInput" placeholder="Enter a country">
+    <button onclick="fetchData()">Send</button>
+    <button onclick="resetForm()">Reset</button>
+    <div id="tableContainer"></div>
+</body>
+
+</html>
